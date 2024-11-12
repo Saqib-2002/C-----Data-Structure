@@ -7,9 +7,9 @@ int main() {
     // char ch = 'A';
     // char ch = 'A';
     while (i < n) {
-        j = 0;
+        // j = 0;
         // int val = i;
-        char ch = 65;
+        // char ch = 65;
         // while (j < n) {
             while(j <= i) {
             // char ch = 'A' + (i+1) - 1;
@@ -31,9 +31,9 @@ int main() {
             // cout << ch << " ";
             // char res = ch + i + j;
             // cout << res << " ";
-            char res = ch + n - i + j - 1;
-            cout << res << " ";
-            j++;
+            // char res = ch + n - i + j - 1;
+            // cout << res << " ";
+            // j++;
             // ch++;
         }
         i++;
