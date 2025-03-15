@@ -13,6 +13,7 @@ bool isPossible(int arr[], int size, int m, int n, int mid) {
             if (days > n || arr[i] > mid) {
                 return false;
             }
+            chapter_sum = arr[i];
         }
     }
     return true;
